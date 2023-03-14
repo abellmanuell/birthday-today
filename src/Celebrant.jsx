@@ -1,11 +1,11 @@
-import $1Pic from "./assets/5d9c6a60c1a11.png";
+// import $1Pic from "./assets/5d9c6a60c1a11.png";
 
-function Celebrant({ name, age }) {
+function Celebrant({ name, age, c_img }) {
   return (
     <section className="flex items-center hover:bg-slate-50 rounded cursor-pointer p-2">
       <img
         className="w-16 h-16 object-cover rounded-full shrink-0 "
-        src={$1Pic}
+        src={c_img}
         alt=""
       />
       <div className="ml-3">
